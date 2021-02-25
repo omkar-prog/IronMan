@@ -1,0 +1,12 @@
+{
+    "name": "JARVIS",
+    "short_name": "JARVIS 2.0",
+    "start_url": ".",
+    "background_color": "#fff",
+    "theme_color": "black",
+    "display": "standalone",
+    "icons": [
+        { "src": "images/image1.png", "sizes": "512x512", "type": "image/png" },
+        { "src": "images/image2.png", "sizes": "196x196", "type": "image/png", "purpose": "maskable" }
+    ]
+}

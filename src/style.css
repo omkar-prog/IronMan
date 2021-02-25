@@ -1,0 +1,89 @@
+      * {
+          font-family: monospace;
+      }
+      
+      body {
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background-image: url('bg.png');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100%;
+          object-fit: cover;
+          background-color: rgb(4, 2, 27);
+      }
+      
+      #text {
+          background-color: rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(50px);
+          border: 1px solid black;
+          display: flex;
+          color: white;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          padding: 1.3em;
+          width: 45%;
+      }
+      
+      #speak {
+          outline: none;
+          border: 1px solid black;
+          padding: 1.6em 4em;
+          background-color: rgb(43, 168, 226);
+          border-radius: 3px;
+          font-size: large;
+          transition: all 100ms linear;
+          margin-bottom: 0.6em;
+      }
+      
+      #speak:hover {
+          background-color: rgb(80, 141, 177);
+          cursor: pointer;
+      }
+      
+      #speak:active {
+          background-color: darkslateblue;
+      }
+      
+      #stopBtn {
+          outline: none;
+          border: 1px solid black;
+          background-color: rgb(241, 117, 15);
+          border-radius: 3px;
+          padding: 1.6em 4em;
+          margin: 2em 0;
+          transition: all 100ms linear;
+      }
+      
+      video {
+          max-width: 50vw;
+          max-height: 60vh;
+      }
+      
+      #stopBtn:hover {
+          background-color: rgb(177, 146, 80);
+          cursor: pointer;
+      }
+      
+      #stopBtn:active {
+          background-color: rgb(206, 156, 80);
+      }
+      
+      input {
+          background-color: rgb(245, 231, 156);
+          padding: 1em;
+          margin-top: 1em;
+      }
+      
+       ::-webkit-file-upload-button {
+          outline: none;
+          border: 1px solid black;
+          background-color: rgb(196, 228, 159);
+          border-radius: 3px;
+          font-size: large;
+      }
